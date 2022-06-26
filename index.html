@@ -3,61 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Coconut</title>
+    <title>Bubble Tea Community</title>
 </head>
 
 <body>
-    <div class="hero-container">
+    <div class="container">
         <nav>
-            <img src="logo.jpg" alt="logo" class="logo">
-
-            <ul>
-                <li>
-                    <a href="#">Drinks</a>
-                </li>
-                <li>
-                    <a href="#">Delivery</a>
-                </li>
-                <li>
-                    <a href="#">Reviews</a>
-                </li>
-                <li>
-                    <a href="#">Contacts</a>
-                </li>
-            </ul>
-
-            <div></div>
-        </nav>
-
-        <div class="hero-text">
-            <div class="header">
-                <h1>Delivery natural <br> herbal smoothie</h1>
-                <p>Perfect snack for hot summer<br>Eat right and tasty</p>
-
-
-                <a href="#" class="btn">Request a call</a>
-
-                <a href="#" class="playbtn"><i class="fa-solid fa-play icon"></i></a>
-
-                <span>Smoothie Recipe video</span>
+            <div class="group1">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
             </div>
 
-            <img src="lime.png" alt="coco2" class="hero-image">
+            <div class="group2">
+                <h2 class="logo">Brand Logo</h2>
+            </div>
+
+            <div class="group3">
+                <a href="#">Bubble Tea</a>
+                <a href="#">Flavor</a>
+                <a href="#">Order</a>
+            </div>
+        </nav>
+
+        <div class="bubble-container">
+            <div class="bubble-left-col">
+                <h1>Bubble Tea Lovers <br> & Community</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Hic saepe nesciunt voluptas soluta architecto dolorum.<br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <a href="#" class="btn">Order Now <span><i class="fa-solid fa-circle-right"></i></span></a>
+
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="bubble-right-col">
+                <img src="bubble-tea.jpg" alt="bubble-tea">
+            </div>
         </div>
-
     </div>
-
-    <script>
-        const images = document.getElementsByTagName("img");
-
-        for (image of images) {
-            image.setAttribute("draggable", "false");
-        }
-    </script>
 </body>
 
 </html>
