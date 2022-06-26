@@ -39,7 +39,7 @@ nav a {
 
 nav a:hover {
     color: #8FD0D6;
-    border-bottom: 3px solid;
+    text-decoration: underline;
     transition: all 0.3s ease;
 }
 
