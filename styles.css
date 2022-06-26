@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 5%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    flex: 1;
+}
+
+nav div {
+    flex: 3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 25px;
+    flex: 2;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+    transition: all 0.15s ease;
+}
+
+nav ul li>a:hover {
+    color: #b4f306;
+}
+
+.hero-text h1 {
+    font-size: 65px;
+}
+
+.hero-text p {
+    color: #999;
+    font-size: 1.3rem;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -18%;
+}
+
+.header {
+    flex-basis: 45%;
+    max-width: 550px;
+}
+
+.hero-image {
+    width: 550px;
+    max-width: 100%;
+    flex-basis: 55%;
+    margin-right: -4%;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(90deg, #b4f306, #18c729);
+    box-shadow: 0 5px 8px 6px #eee;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 8px 6px rgba(172, 255, 47, 0.651);
+}
+
+.playbtn {
+    position: relative;
+    padding: 18px 28px;
+    margin-left: 2rem;
+    border-radius: 100%;
+    box-shadow: 0 3px 5px 3px #eee;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    color: #999;
+    margin-left: 1.35rem;
+}
