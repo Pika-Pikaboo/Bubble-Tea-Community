@@ -58,7 +58,77 @@
                 <img src="bubble-tea.jpg" alt="bubble-tea">
             </div>
         </div>
+
+        <div class="fruit-choice">
+            <div class="fruit-choice-left">
+                <h1><span style="color: #BF312D;">Choose</span> <span style="color: #F5CE00;">Your</span> <span style="color: #7D8DB1;">Favorite</span> <br> <span style="color: #B2B743;">Smoothie</span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt amet repudiandae saepe totam molestiae perferendis sapiente. Ipsam et voluptatibus facere consectetur, labore necessitatibus fuga iusto voluptates, tempore veritatis consequuntur
+                    cumque.
+                </p>
+
+                <a href="#" class="btn">Choose Now <span><i class="fa-solid fa-circle-right"></i></span></a>
+            </div>
+
+            <div class="fruit-choice-right">
+                <img src="smoothies-a.png" alt="fruity">
+            </div>
+        </div>
+
+        <div class="lime-juice">
+            <div class="lime-left-col">
+                <img src="lime-clear.png" alt="lime-clear">
+            </div>
+
+            <div class="lime-right-col">
+                <h1><span style="color: #E1E8FA;">Fresh,</span> Delicious & <br> <span style="color: #7CBA01;">Healthy</span></h1>
+                <p style="color: #D8D760;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis quaerat sunt quam eveniet ut architecto consequatur unde corrupti pariatur?</p>
+                <a href="#" class="btn" style="float: right;">Explore Now<span><i class="fa-solid fa-circle-right"></i></span></a>
+            </div>
+        </div>
+
+        <h1 class="header">More Green Products</h1>
+        <div class="menu">
+            <div class="image">
+                <img src="apple.png" alt="apple">
+            </div>
+
+            <div class="image">
+                <img src="avocado-smoothie.png" alt="avocado">
+            </div>
+
+            <div class="image">
+                <img src="clear-lime.png" alt="clear-lime">
+            </div>
+
+            <div class="image">
+                <img src="coco1.png" alt="coco1">
+            </div>
+
+            <div class="image">
+                <img src="coco2.png" alt="coco2">
+            </div>
+
+            <div class="image">
+                <img src="lime.png" alt="lime">
+            </div>
+
+            <div class="image">
+                <img src="lime-clear.png" alt="lime-clear">
+            </div>
+
+            <div class="image">
+                <img src="smoothies-b.png" alt="smoothies">
+            </div>
+        </div>
     </div>
+
+    <script>
+        const images = document.getElementsByTagName("img");
+
+        for (let image of images) {
+            image.setAttribute("draggable", "false");
+        }
+    </script>
 </body>
 
 </html>

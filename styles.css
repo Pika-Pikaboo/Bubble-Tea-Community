@@ -12,8 +12,8 @@ body {
 
 .container {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
     padding: 0 5%;
 }
 
@@ -43,14 +43,21 @@ nav a:hover {
     transition: all 0.3s ease;
 }
 
-.bubble-container {
+.bubble-container,
+.fruit-choice,
+.lime-juice {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2.5rem;
 }
 
 .bubble-left-col,
-.bubble-right-col {
+.bubble-right-col,
+.fruit-choice-left,
+.fruit-choice-right,
+.lime-left-col,
+.lime-right-col {
     flex-basis: 50%;
 }
 
@@ -59,18 +66,23 @@ nav a:hover {
     max-width: 100%;
 }
 
-.bubble-left-col {
+.bubble-left-col,
+.fruit-choice-left {
     width: 550px;
     max-width: 100%;
 }
 
-.bubble-left-col h1 {
+.bubble-left-col h1,
+.fruit-choice-left h1,
+.lime-right-col h1 {
     font-size: 60px;
     font-family: 'Fredoka One', cursive;
     color: #FF5B7E;
 }
 
-.bubble-left-col p {
+.bubble-left-col p,
+.fruit-choice-left p,
+.lime-right-col p {
     font-size: 1.3rem;
     font-weight: bolder;
     line-height: 1.6;
@@ -98,6 +110,55 @@ nav a:hover {
 .btn:hover span {
     display: inline;
     animation: moveArrow 0.35s linear forwards;
+}
+
+.fruit-choice-right>img,
+.lime-left-col>img {
+    width: 550px;
+    max-width: 100%;
+}
+
+.lime-right-col {
+    text-align: right;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.menu .image {
+    display: block;
+    padding: 10px;
+    box-shadow: 0 0 8px 4px #eee;
+    transition: all 0.4s ease;
+}
+
+.menu .image:hover {
+    box-shadow: 0 0 18px 6px rgba(213, 212, 212, 0.821);
+}
+
+.menu img {
+    width: 200px;
+    max-width: 100%;
+}
+
+.header {
+    font-size: 60px;
+    font-family: 'Fredoka One', cursive;
+    color: #AED742;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 10px;
+    border-right: 6px dashed;
+    border-left: 6px dashed;
+    border-top: 6px dotted;
+    border-bottom: 6px dotted;
 }
 
 @keyframes moveArrow {
