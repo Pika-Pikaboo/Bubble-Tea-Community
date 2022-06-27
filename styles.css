@@ -49,6 +49,8 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-gap: 3rem;
+    gap: 3rem;
     margin-top: 2.5rem;
 }
 
